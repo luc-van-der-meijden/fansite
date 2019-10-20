@@ -1,0 +1,61 @@
+/* GENERAL */
+
+	html{
+		margin: 0;
+	}
+
+	body{
+		margin: 0;
+		background-color: #000065;
+	}
+
+	@font-face{
+		font-family: queen;
+		src: url("Polices/queen/QueenInlineGrunge.ttf");
+	}
+
+/* HEADER */
+
+	header{
+		display: flex;
+		width: 100vw;
+		height: 12vh;
+		justify-content: center;
+		font-family: queen;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	#logo{
+		font-size: 80px;
+		color: #FFFFFF;
+		margin: 0;
+	}
+
+	nav{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+
+	ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		list-style-type: none;
+		padding: 0;
+	}
+
+	li{
+		padding: 0 80px;
+	}
+
+	li a{
+		font-size: 25px;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
