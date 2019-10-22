@@ -10,6 +10,14 @@
 		font-family: arial;
 	}
 
+	.body{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+	}
+
 	@font-face{
 		font-family: queen;
 		src: url("Polices/queen/QueenInlineGrunge.ttf");
@@ -66,33 +74,83 @@
 		height: 88vh;
 	}
 
-/* BODY */
-
-
-.body{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: 100vw;
-	padding: 40px 0;
-}
-
-#biographie{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: #FFFFFF;
-	padding: 20px;
-	width: 100vw;
-	max-width: 1200px;
-	
-}
-
 /* FOOTER */
 
-footer{
-	background-color: #000000;
-	color: #FFFFFF;
+	footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		background-color: #000000;
+		color: #FFFFFF;
+		padding: 40px;
+	}
+
+	footer ul{
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer li a{
+		font-size: 20px;
+	}
+
+/* ACCUEIL */
+
+	#biographie{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		color: #FFFFFF;
+		padding: 20px;
+		width: 100vw;
+		max-width: 1200px;
+	}
+
+/* ACTUALITES */
+
+	.actualite{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		color: #000000;
+		width: 70%;
+		max-width: 1200px;
+	}
+
+	.actualite img{
+		width: 100%;
+	}
+
+	.actualite_2{
+		background-color: #FFFFFF;
+		padding: 20px;
+	}
+
+/* REALISATION */
+
+.realisation{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 70vw;
+	max-width: 1200px;
+	margin: 20px auto;
+	background-color: #FFFFFF;
+}
+
+.realisation_1{
+	width: 30%;
+}
+
+
+.realisation_2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 65%;
+	padding: 20px;
 }
