@@ -6,7 +6,7 @@
 
 	body{
 		margin: 0;
-		background-color: #000065;
+		background-color: #000000;
 		font-family: arial;
 	}
 
@@ -61,7 +61,7 @@
 	}
 
 	li{
-		padding: 0 80px;
+		padding: 0 30px;
 	}
 
 	li a{
@@ -70,8 +70,13 @@
 		text-decoration: none;
 	}
 
-	#qeen_1{
+	#queen_1{
 		height: 88vh;
+		background-image: url("Images/Queen.jpg");
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		
 	}
 
 /* FOOTER */
@@ -82,12 +87,13 @@
 		justify-content: center;
 		background-color: #000000;
 		color: #FFFFFF;
-		padding: 40px;
+		padding: 60px;
 	}
 
 	footer ul{
 		display: flex;
 		flex-direction: column;
+		padding: 0px 80px;
 	}
 
 	footer li a{
@@ -96,16 +102,51 @@
 
 /* ACCUEIL */
 
+	h2 {
+	color:#000000;
+	font-size:30px;
+	margin: 0;
+		
+	}
+
 	#biographie{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		color: #FFFFFF;
-		padding: 20px;
+		color: #000000;
+		padding: 70px 0;
 		width: 100vw;
-		max-width: 1200px;
+		background-color: #FFFFFF;
+	}
+
+	#biographie p{
+		width: 80vw;
+		max-width: 700px;
+		text-align: center;
+	}
+
+	#biographie2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		color: white;
+		background-image: url("Images/queen2.jpg");
+		padding: 70px 0;
+		width: 100vw;
+	}
+
+	#biographie2 p{
+		width: 80vw;
+		max-width: 700px;
+		text-align: center;
+	}
+
+	#biographie2 h2{
+		color:#FFFFFF;
 	}
 
 /* ACTUALITES */
@@ -132,26 +173,182 @@
 
 /* REALISATION */
 
-.realisation{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 70vw;
-	max-width: 1200px;
-	margin: 20px auto;
-	background-color: #FFFFFF;
-}
+	.realisation{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 70vw;
+		max-width: 1200px;
+		margin: 20px auto;
+		background-color: #FFFFFF;
+	}
 
-.realisation_1{
-	width: 300px;
-	height: 300px;
-}
+	.realisation_1{
+		width: 300px;
+		height: 300px;
+	}
 
 
-.realisation_2{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 65%;
-	padding: 20px;
-}
+	.realisation_2{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 65%;
+		padding: 20px;
+	}
+
+	h1 {
+		font-size: 30px;
+		margin: 0;
+		color: #df1f7b;
+	}
+
+	h4 {
+		margin: 8px 0;
+	}
+
+	.morceau{
+		font-style: italic;
+	}
+
+	.avis {
+		margin: 10px 0;
+	}
+
+	.paragraphe-avis {
+		margin: 3px;
+	}
+
+/* EVENEMENT */
+
+	#evenement-a-venir {
+		background-color: #FFFFFF;
+		width: 70%;
+	}
+
+	.nouveau-queen {
+		width:100%;
+	}
+
+	.evenement-texte {
+		margin: 40px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.h3-les-evenements {
+		color: #000000;
+	}
+
+	.evenement {
+		color: #000000;
+	}
+
+	.evenement-passe {
+		width: 70%;
+		margin-top: 40px;
+	}
+
+	.nostalgia {
+		display: flex;
+		flex-direction: row;
+		background-color: #FFFFFF;
+	}
+
+	.nostalgia-img {
+		height: 300px;
+		width: 300px;
+	}
+
+	.evenement-texte-passe {
+		display: flex;
+		flex-direction: column;
+		margin: 0px 40px;
+		padding-top: 39px;
+	}
+
+	.h2-evenements-passe {
+		font-size: 20px;
+	}
+
+/* CLIPS VIDEOS */
+
+	.videos {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #FFFFFF;
+		width: 70%;
+		margin-top: 50px;
+	}
+
+
+	video {
+		width: 100%;
+		height: 500px;
+		background-color: #000000;
+		vertical-align: middle;
+	}
+
+/* CONTACT */
+
+	form {
+		display:flex;
+		flex-direction: column;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	input {
+		text-align:center;
+	}
+
+	#Nom {
+		font-size: 14px;
+		padding-left: 8px;
+	}
+
+	#Prenom {
+		font-size: 14px;
+		padding-left: 8px;
+	}
+
+	#mail {
+		font-size: 14px;
+		padding-left: 8px;
+	}
+
+	#description {
+		font-size: 14px;
+		padding-left: 8px;
+		padding-top: 8px;
+	}
+
+	.largeur {
+		width: 400px;
+		height: 40px;
+		border: 0px;
+		text-align: left;
+		background-color: #EAEAEA;
+	}
+
+	#bouton {
+		background-color: #000000;
+		width: 200px;
+		height: 40px;
+		font-size: 14px;
+		color: white;
+		border-color: #FFFFFF;
+	}
+
+	#bouton:hover {
+		color: #df1f7b;
+		border-color: #df1f7b;
+	}
+
+	.largeur2 {
+		width: 398px;
+		height: 100px;
+		border: 0px;
+		background-color: #EAEAEA;
+	}
